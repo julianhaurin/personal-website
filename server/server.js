@@ -2,10 +2,10 @@
 
 // Express.js server setup 
 const express = require('express');
-const helmet = require('helmet');
+// const helmet = require('helmet');
 
 const app = express();
-app.use(helmet());
+// app.use(helmet());
 
 require('dotenv').config({ path: './config.env' });
 const PORT = process.env.PORT || 5000;
