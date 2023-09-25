@@ -8,6 +8,8 @@ import Projects from './components/Projects'
 import Resume from './components/Resume'
 import Contact from './components/Contact';
 
+import WaveSimPage from './components/ProjectPages/WaveSimPage';
+
 import "./css/App.css"
 
 function App (props) {
@@ -20,7 +22,7 @@ function App (props) {
   }
 
   return (
-    <div className={`${darkMode ? "dark" : ""} font-sans`}>
+    <div className={`${darkMode ? "dark" : ""} font-sans h-screen`}>
 
       <NavBar darkMode={darkMode} toggleTheme={toggleTheme}/>
     
@@ -29,6 +31,9 @@ function App (props) {
         <Route path="/projects" element={<Projects />}/>
         <Route path="/resume" element={<Resume />}/>
         <Route path="/contact" element={<Contact />}/>
+
+        {/* project pages  */}
+        <Route path="/projects/wave-sim" element={<WaveSimPage />}/>
 
       </Routes>
 

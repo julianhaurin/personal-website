@@ -1,7 +1,7 @@
 
 // Resume page (test)
 
-export default function Projects() 
+export default function Resume() 
 {
 
   return (

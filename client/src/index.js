@@ -10,9 +10,11 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <BrowserRouter>
+    <div className='h-full'>
       <App />
-    </BrowserRouter>
-      
+
+    </div> 
+    </BrowserRouter>  
   </React.StrictMode>
 );
 

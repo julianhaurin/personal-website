@@ -13,7 +13,7 @@ export default function NavBar(props)
 {
 
   return (
-    <div className="navbar flex px-10">
+    <div className="navbar flex px-10 pt-7">
 
       {/* Name */}
       <Link to="/" className="">
@@ -32,6 +32,7 @@ export default function NavBar(props)
         <h1 className="text-lg font-mono mx-4">contact</h1>
       </Link>
 
+      <div className="flex-1"/>
 
       <a href="https://github.com/julianhaurin">
         <button className="btn btn-circle btn-ghost">

@@ -1,5 +1,8 @@
 // Julian Haurin Personal Website - 9/6/2023
 
+// Notes: 
+// errors adding helmet, something to do with node version, try again later
+
 // Express.js server setup 
 const express = require('express');
 // const helmet = require('helmet');
