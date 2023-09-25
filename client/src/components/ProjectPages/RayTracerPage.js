@@ -36,7 +36,7 @@ export default function RayTracerPage()
         </p>
 
         <div className="p-10">
-          <img width="600" src={rayTracerCover  }></img>
+          <img width="600" src={rayTracerCover} alt="Ray Tracer pic"></img>
         </div>
 
 

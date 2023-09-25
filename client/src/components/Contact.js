@@ -1,8 +1,6 @@
 
 // Contact page (test)
 
-import constructionCapy from "../assets/constructionCapy.png"
-
 export default function Contact() 
 {
 

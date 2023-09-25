@@ -1,8 +1,6 @@
 
 // Main page (test)
 
-import { Link } from 'react-router-dom';
-
 import constructionCapy from "../assets/constructionCapy.png"
 
 export default function MainPage() 
@@ -15,12 +13,12 @@ export default function MainPage()
       <div className="flex justify-center">
         <p className="w-1/2 text-2xl font-mono pt-5 text-center">
           My name is Julian, I'm a third year computer science student at Northeastern University interested
-          in graphics programming and web development. Check out some of my projects or contact me a julian.haurin@gmail.com
+          in graphics programming and web development. Check out some of my projects or contact me at julian.haurin@gmail.com
         </p>
       </div>
       
       
-      <img src={constructionCapy} className="object-contain h-48 pt-20"></img>  
+      <img src={constructionCapy} className="object-contain h-48 pt-20" alt="construction"></img>  
       <p className="text-lg font-mono pt-5">This website is currently under construction</p>
 
     </div>

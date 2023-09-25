@@ -5,7 +5,6 @@ import { Link } from 'react-router-dom';
 
 import waveCover from '../assets/projectImages/waveSimCover.png'
 import rayTracerCover from '../assets/projectImages/rayTracer.png'
-import websiteCover from '../assets/projectImages/website.png'
 import websiteCover2 from '../assets/projectImages/website2.png'
 
 export default function Projects() 

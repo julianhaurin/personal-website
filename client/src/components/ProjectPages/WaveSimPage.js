@@ -44,7 +44,7 @@ export default function WaveSimPage()
         </p>
 
         <div className="p-10">
-          <img width="600" src={oceanGrid}></img>
+          <img width="600" src={oceanGrid} alt="Ocean grid"></img>
         </div>
 
         <h1 className="font-bold font-mono text-2xl pt-5 p-2">Process</h1>
