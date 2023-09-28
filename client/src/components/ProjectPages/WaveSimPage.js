@@ -4,6 +4,7 @@
 import oceanGrid from "../../assets/projectImages/waveSim/OpenGLOceanGrid.png"
 import oceanDemo1 from "../../assets/projectImages/waveSim/OceanDemo1.mp4"
 import oceanDemo2 from "../../assets/projectImages/waveSim/OceanDemo2.mp4"
+import oceanDuck from "../../assets/projectImages/duckInOcean.png";
 
 import githubIcon from "../../assets/githubIcon.svg"
 
@@ -38,6 +39,12 @@ export default function WaveSimPage()
         the calculation process to allow for much faster framerates. 
         </p>
 
+        <div className="flex font-mono text-lg w-1/2 justify-center p-5">
+          <p >
+            Check out the source code<a href="https://github.com/julianhaurin/OpenGL-Environment-Simulator" className="px-2">here.</a>
+          </p>
+        </div>
+
         <h1 className="font-bold font-mono text-2xl pt-5 p-2">Tech Stack</h1>
         <p className="flex font-mono text-lg w-1/2 justify-center">
           C++, OpenGL, GLEW, GLFW, glm
@@ -55,6 +62,24 @@ export default function WaveSimPage()
           wave height field into a bunch of sin and cosine waves called sinusoids using the (inverse)
           fourier transform. 
         </p>
+
+        <h1 className="font-bold font-mono text-2xl pt-10 p-2">Skills</h1>
+        <div className="flex flex-col items-center justify-center">
+
+          <p className="flex font-mono text-lg w-2/3 justify-center p-2">
+           Experience implementing a research paper from scratch and incorporating into another program using
+           object-oriented techniques.
+          </p>
+
+          <p className="flex font-mono text-lg w-2/3 justify-center p-2">
+            Knowlegde of the graphics pipeline, and GLSL skills. 
+          </p>
+
+          <p className="flex font-mono text-lg w-2/3 justify-center p-2">
+            C++ and OpenGL experience. 
+          </p>
+
+        </div> 
 
         <p className="flex font-mono text-lg w-1/2 justify-center pt-10">
           Here are some demos of what the current state of the program looks like: 

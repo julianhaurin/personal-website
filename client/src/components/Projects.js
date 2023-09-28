@@ -6,6 +6,7 @@ import { Link } from 'react-router-dom';
 import waveCover from '../assets/projectImages/waveSimCover.png'
 import rayTracerCover from '../assets/projectImages/rayTracer.png'
 import websiteCover2 from '../assets/projectImages/website2.png'
+import rendererCover from '../assets/projectImages/duck.png'
 
 export default function Projects() 
 {
@@ -16,23 +17,24 @@ export default function Projects()
     <div className="flex flex-row p-5">
       
       {/* OpenGL Renderer  */}
-      {/* <Link to="/projects/opengl-renderer" className="">
+      <Link to="/projects/opengl-renderer" className="">
       <div className="px-5">
         <div class="max-w-sm rounded-3xl overflow-hidden shadow-2xl p-7 backdrop-brightness-150 hover:bg-indigo-400">
-          <img class="" src={waveCover} alt="OpenGL Renderer Pic"/>
+          <img class="" src={rendererCover} alt="OpenGL Renderer Pic"/>
           <div class="px-3 py-4">
             <div class="font-bold text-xl mb-2">OpenGL Renderer</div>
             <p >
-              Describe this
+              OpenGL Renderer with .obj loading, Phong lighting, controllable camera, and more
             </p>
           </div>
           <div class="px-3 pt-4 pb-2">
             <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">C++</span>
             <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">OpenGL</span>
+            <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">glm</span>
           </div>
         </div>
       </div>
-      </Link> */}
+      </Link>
 
       {/* Ocean Wave Simulation  */}
       <Link to="/projects/wave-sim" className="">

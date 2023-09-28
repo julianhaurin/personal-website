@@ -29,6 +29,11 @@ export default function RayTracerPage()
           and allows for custom render objects and materials. 
         </p>
 
+        <div className="flex font-mono text-lg w-1/2 justify-center p-5">
+          <p >
+            Check out the source code<a href="https://github.com/julianhaurin/RayTracer" className="px-2">here.</a>
+          </p>
+        </div>
 
         <h1 className="font-bold font-mono text-2xl pt-5 p-2">Tech Stack</h1>
         <p className="flex font-mono text-lg w-1/2 justify-center">
