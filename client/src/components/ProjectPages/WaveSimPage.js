@@ -4,7 +4,8 @@
 import oceanGrid from "../../assets/projectImages/waveSim/OpenGLOceanGrid.png"
 import oceanDemo1 from "../../assets/projectImages/waveSim/OceanDemo1.mp4"
 import oceanDemo2 from "../../assets/projectImages/waveSim/OceanDemo2.mp4"
-import oceanDuck from "../../assets/projectImages/duckInOcean.png";
+import oceanDemoGPU from "../../assets/projectImages/waveSim/OceanDemoGPU_1.mp4"
+// import oceanDuck from "../../assets/projectImages/duckInOcean.png";
 
 import githubIcon from "../../assets/githubIcon.svg"
 
@@ -35,8 +36,9 @@ export default function WaveSimPage()
         </p>
 
         <p className="font-mono text-lg w-1/2 pt-5">
-        This project is still a work in progress - right now I'm working on incorporating compute shaders into 
-        the calculation process to allow for much faster framerates. 
+        This project is still a work in progress - currently I'm working on adding a heightmap texture to render 
+        some more interesting lighting and getting the fast fourier transform working on the GPU (as opposed to the
+        much slower DFT). Sharpening filters can also be added using the Jacobian method described in Tessendorf's work.
         </p>
 
         <div className="flex font-mono text-lg w-1/2 justify-center p-5">
@@ -92,6 +94,11 @@ export default function WaveSimPage()
         
         <div className="p-5 flex flex-col justify-center items-center">
           <video src={oceanDemo2} width="600" controls></video>
+        </div>
+
+        <div className="p-5 flex flex-col justify-center items-center">
+          <video src={oceanDemoGPU} width="600" controls></video>
+          <p className="p-1">16,384 waves simulated in real-time! (duck for reference) </p>
         </div>
 
         <div className="h-20"></div>
